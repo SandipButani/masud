@@ -1,0 +1,1176 @@
+/* poppins fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: helveticaneue;
+    src: url(../fonts/helveticaneue.otf);
+}
+@font-face {
+    font-family: neue-helvetica-medium;
+    src: url(../fonts/neue-helvetica-medium.otf);
+}
+body{
+    background: #F9F9F9;
+    color: #2E384D;
+    font-family: helveticaneue;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5 {
+    font-family: helveticaneue;
+}
+
+:root {
+    --font-size-sm: 16px;
+    font-size: var(--font-size-sm);
+}
+
+.main-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side-bar{
+    max-width: 19.10%;
+    background: #fff;
+    width: 100%;
+    border-right: 1px solid #F2F3F4;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.right-side-bar{
+    max-width: 23%;
+    background: #fff;
+    width: 35%;
+    border-left: 1px solid #F2F3F4;
+    box-sizing: border-box;
+}
+.freelancer-main{
+    text-align: left;
+    max-width: 58%;
+    width: 100%;
+    padding: 28px 56px 38px;
+}
+.freelancers-title p{
+    color: #2E384D;
+    margin-bottom: 3px;
+    font-size: var(--font-size-sm);
+    color: #2E384D;
+    font-family: neue-helvetica-medium;
+}
+.freelancers-title p a{
+    color: #999;
+    display: inline-block;
+    font-family: helveticaneue;
+}
+.applicants-menu{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    width: 100%;
+}
+.applicants-menu li{
+    list-style: none;
+    margin-right: 18px;
+}
+.applicants-menu li a{
+    color: #0069FF;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.applicants-menu li a.popular-menu{
+    color: #2E384D;
+}
+.sort-dropdown{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+.sort-dropdown select,.experience-level select{
+    background-color: #fff;
+    padding: 19px 22px;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    width: 100%;
+    max-width: 269px;
+    font-size: var(--font-size-sm);
+    border-radius: 12px;
+    color: #2E384D;
+    appearance: none;
+    background: url(../images/down-arrow.svg) no-repeat right white;
+    background-size: 18px;
+    background-position: center right 23px;
+    cursor: pointer;
+}
+.experience-level select{
+    padding: 24px 22px;
+    width: 100%;
+    line-height: 1;
+    font-size: 15px;
+    margin: 0;
+    position: relative;
+    max-width: 100%;
+}
+.sort-dropdown h4{
+    margin: 0;
+    font-size: 16px;
+    color: #2E384D;
+    font-family: Poppins;
+}
+.applicants-top-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-main-section{
+    background-color: #fff;
+    padding: 48px 34px 18px 34px;
+    margin-bottom: 30px;
+}
+.profile-middel-part{
+    text-align: left;
+    width: 100%;
+    padding-bottom: 34px;
+}
+.profile-section .profile-image{
+    position: relative;
+    margin-right: 28px;
+}
+.profile-section .profile-image img{
+    border-radius: 10px;
+}
+.profile-section .profile-image .profile-dot{
+    position: absolute;
+    right: 0px;
+}
+.profile-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+.profile-section .profile-detail p{
+    margin-top: 0;
+    font-size: 18px;
+    color: #2E384D;
+    font-weight: 400;
+    font-family: helveticaneue;
+}
+.profile-section .profile-detail{
+    width: 100%;
+}
+.profile-section .profile-detail .payment-section{
+    display: flex;
+}
+.profile-section .profile-detail h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #2E384D;
+    margin-top: 0;
+    line-height: 1;
+    font-weight: 500;
+}
+.profile-section .profile-detail .payment-section .profile-card{
+    display: flex;
+    width: 145px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profile-section .profile-detail .payment-section .profile-card img{
+    margin-right: 7px;
+}
+.profile-section .profile-detail .payment-section .profile-card p{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2E384D;
+    font-weight: 400;
+    font-family: helveticaneue;
+}
+.profile-section .profile-button{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.profile-section .profile-button a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 15px 10px;
+    border-radius: 34px;
+    text-align: center;
+}
+.profile-section .profile-button .view-btn{
+    width: 100%;
+    max-width: 159px;
+    border: 1.5px solid #0069FF;
+    margin-right: 10px;
+}
+.profile-section .profile-button .chat-btn{
+    width: 100%;
+    max-width: 137px;
+    border: 1.5px solid #0069FF;
+    background-color: #0069FF;
+    color: #fff;
+}
+.custom-check{
+    display: flex;
+    flex-wrap: wrap;
+}
+.custom-check select{
+    background-color: #f9f9f9;
+    width: unset;
+}
+.form-group{
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+.form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.form-group label {
+    position: relative;
+    cursor: pointer;
+    padding: 13px 24px;
+    line-height: 1;
+    background-color: #F9F9F9;
+    color: #2E384D;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.form-group input:checked + label{
+    background-color: #0069FF;
+    color: #FFFFFF;
+}
+.custom-check .drop-down{
+    width: 49px;
+    line-height: 49px;
+    background-color: #f9f9f9;
+    height: 49px;
+    text-align: center;
+    border-radius: 50%;
+}
+.slider{
+    margin: 32px 0;
+}
+.quality-slider{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.quality-slider .owl-nav{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+.quality-slider .owl-nav button.owl-prev{
+    left: -45px;
+    position: absolute;
+    transform: rotate(180deg) translateY(50%);
+    width: 55px;
+    top: 50%;
+    height: 55px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(69, 94, 130, 0.06);
+    border-radius: 50%;
+}
+.quality-slider .owl-nav button.owl-next{
+    right: -45px;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 55px;
+    top: 50%;
+    height: 55px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(69, 94, 130, 0.06);
+    border-radius: 50%;
+}
+.quality-slider .owl-nav button.disabled{
+    display: none;
+}
+
+
+/* right side bar */
+.right-side-bar{
+    padding:43px 30px 0;
+}
+.filter-title-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.filter-title-line h2{
+    line-height: 1.4;
+    font-size: 27px;
+    color: #2E384D;
+    font-weight: 500;
+    margin: 0;
+}
+.filter-title-line a{
+    margin: 0;
+    line-height: 1.4;
+    font-size: 15px;
+    color: #999999;
+    font-weight: 400;
+}
+.skills-course{
+    flex-wrap: wrap;
+}
+.filter-details-box h3{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 0 19px 0;
+    font-family: Poppins;
+}
+.skills-box{
+    padding-bottom: 42px;
+}
+.filter-details-box{
+    background: #F9F9F9;
+    border-radius: 10px;
+    padding: 21px;
+    margin: 0 0 30px 0;
+}
+.search-bar{
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 8px 11px 8px 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-bar input{
+    outline: 0;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    padding-right: 10px;
+}
+.search-bar img{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 15px 24px;
+}
+.skills-box .custom-check{
+    justify-content: flex-start;
+}
+.skills-box .form-group{
+    margin-right: 7px;
+}
+.skills-box .form-group label{
+    background: #F2F3F4;
+    font-size: 15px;
+    margin-bottom: 8px;
+    padding: 13px 17px;
+    transition: 0.3s;
+}
+.skills-box .form-group input:checked + label{
+    background: #0069FF;
+    color: #FFFFFF;
+}
+.avalability-options{
+    margin-bottom: 14px;
+}
+
+.avalability-options input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.avalability-options label {
+    position: relative;
+    cursor: pointer;
+    color: #2E384D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    cursor: pointer;
+}
+.avalability-options input[type=radio]:checked ~ label{
+    color: #2E384D;
+}
+.avalability-options label:before {
+    content:'';
+    -webkit-appearance: none;
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+    border: 2.5px solid #D1D1D1;
+    border-radius: 50%;
+}
+
+.avalability-options input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+.avalability-options input:checked + label::before{
+    background: #0069FF;
+    border-color: #0069FF;
+}
+
+.range-slide {
+    position: relative;
+}
+.range-slide .slide {
+    top: 70px;
+    height: 8px;
+    border-radius: 5px;
+    background: #E6EBF3;
+    left: 0px;
+    right: 0px;
+}
+.range-slide .line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 8px;
+    background-color: #0069FF;;
+}
+.range-slide .thumb {
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+    border: 3px solid #fff;
+    outline: 2px solid #0069FF !important;
+    background-color: #0069FF;
+    border-radius: 50%;
+    outline: none;
+    top: -9px;
+    height: 25px;
+    width: 25px;
+    margin-left: -9px;
+} 
+.range-slide input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3;
+    height: 3px;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    margin: 0;
+} 
+.range-slide input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    pointer-events: all;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+} 
+.range-slide-box .display {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+.range-slide-box .display span{
+    border: 2.7451px solid #E6EBF3;
+    box-sizing: border-box;
+    border-radius: 50%;
+    font-size: 13px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay-rate-number{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.pay-rate-number{
+    color: #2E384D;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+@media (min-width:1600px) and (max-width:1775px){
+    .profile-section .profile-button a,
+    .applicants-menu li a.popular-menu,
+    .applicants-menu li a,
+    .sort-dropdown h4,
+    .sort-dropdown select,
+    .form-group label,
+    .skills-box .form-group label,
+    .search-bar input,
+    .filter-details-box h3,
+    .avalability-options label{
+        font-size: 15px;
+    }
+    .profile-section .profile-detail h2{
+        font-size: 24px;
+    }   
+}
+@media (min-width:1500px) and (max-width:1599px){
+    .filter-title-line h2{
+        font-size: 29px;
+    }
+    .skills-box .form-group label{
+        padding: 13px 13px;
+        margin-right: 5px;
+    }
+    .custom-check .drop-down {
+        width: 45px;
+        line-height: 45px;
+        height: 45px;
+    }
+    .form-group label{
+        padding: 14px 18px;
+    }
+    .sort-dropdown select, .experience-level select{
+        background-size: 15px;
+        background-position: center right 16px;
+    }
+    .experience-level select {
+        padding: 20px 15px;
+        font-size: 16px;
+    }
+    .search-bar img{
+        padding: 10px 20px;
+    }
+    .profile-section .profile-button a,
+    .applicants-menu li a.popular-menu,
+    .applicants-menu li a,
+    .sort-dropdown h4,
+    .sort-dropdown select,
+    .form-group label,
+    .skills-box .form-group label,
+    .search-bar input,
+    .filter-details-box h3,
+    .avalability-options label{
+        font-size: 16px;
+    }
+    .profile-section .profile-detail h2{
+        font-size: 24px;
+    }
+    .freelancer-main{
+        padding: 35px 30px 38px;
+    }
+}
+
+@media (min-width:1400px) and (max-width:1499px){
+    .profile-section .profile-detail .payment-section .profile-card p{
+        font-size: var(--font-size-sm);
+    }
+    .profile-section .profile-button a{
+        padding: 14px 10px;
+    }
+    .profile-main-section{
+        padding-bottom: 40px;
+    }
+    .skills-box .form-group label{
+        padding: 13px 12px;
+    }
+    .form-group label{
+        padding: 13px 20px;
+    }
+    .filter-title-line{
+        margin-bottom: 45px;
+    }
+    .filter-title-line h2{
+        font-size: 25px;
+    }
+    .sort-dropdown select, .experience-level select{
+        padding: 17px 22px;
+        background-size: 17px;
+        background-position: center right 17px;
+    }
+    .profile-section .profile-button a,
+    .applicants-menu li a.popular-menu,
+    .applicants-menu li a,
+    .sort-dropdown h4,
+    .sort-dropdown select,
+    .form-group label,
+    .skills-box .form-group label,
+    .search-bar input,
+    .filter-details-box h3,
+    .avalability-options label{
+        font-size: 16px;
+    }
+    .profile-section .profile-detail h2{
+        font-size: 24px;
+    }
+    .freelancer-main{
+        padding: 35px 20px 38px;
+        max-width: 60%;
+        font-size: 16px;
+    }
+    .right-side-bar{
+        padding: 33px 23px 0 23px;
+        max-width: 21%;
+    }
+    .search-bar img{
+        padding: 10px 14px;
+        width: 41px;
+    }
+    .experience-level select{
+        padding: 15px 50px 15px 15px;
+    }
+    .skills-box .form-group label{
+        padding: 13px 13px;
+        margin-right: 0px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1399px){
+    .freelancers-title p{
+        font-size: 17px;
+    }
+    .profile-section .profile-image .profile-dot{
+        max-width: 18px;
+    }
+    .profile-section .profile-button a{
+        padding: 13px 10px;
+    }
+    .filter-title-line h2{
+        font-size: 23px;
+    }
+    .profile-section .profile-detail h2{
+        font-size: 20px;
+    }
+    .freelancer-main{
+        padding: 35px 20px 38px;
+        max-width: 60%;
+    }
+    .right-side-bar{
+        padding: 33px 23px 0 23px;
+        max-width: 21%;
+    }
+    .search-bar img{
+        padding: 10px 14px;
+        width: 41px;
+    }
+    .experience-level select{
+        padding: 15px 50px 15px 15px;
+        background-size: 15px;
+        font-size: 14px;
+    }
+    .skills-box .form-group label{
+        padding: 13px 10px;
+        margin-right: 0px;
+    }
+    .profile-main-section{
+        padding: 33px 20px 14px 20px;
+    }
+    .profile-section .profile-button{
+        min-width: 155px;
+    }
+    .profile-section .profile-button .view-btn{
+        min-width: 97px;
+    }
+    .quality-slider .owl-nav button.owl-prev{
+        left: -29px;
+    }
+    .quality-slider .owl-nav button.owl-next{
+        right: -28px;
+    }
+    .sort-dropdown h4 {
+        min-width: 54px;
+    }
+    .sort-dropdown select, .experience-level select{
+        padding: 16px 15px;
+        background-size: 15px;
+        border-radius: 10px;
+        background-position: center right 12px;
+    }
+    .profile-middel-part{
+        padding-bottom: 30px;
+    }
+    .profile-section .profile-detail .payment-section .profile-card p{
+        font-size: var(--font-size-sm);
+    }
+    .custom-check .drop-down{
+        width: 40px;
+        line-height: 40px;
+        height: 40px;
+    }
+    .quality-slider .owl-nav button.owl-next,
+    .quality-slider .owl-nav button.owl-prev{
+        width: 45px;
+        height: 45px;
+    }
+    .quality-slider .owl-nav button.owl-next img,
+    .quality-slider .owl-nav button.owl-prev img{
+        max-width: 10px;
+    }
+    .filter-title-line{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width:1200px) and (max-width:1299px){
+    .experience-level select{
+        background-size: 15px;
+        background-position: center right 15px;
+    }
+    .form-group label{
+        padding: 13px;
+    }
+    .skills-box .form-group label{
+        padding: 13px 10px;
+    }
+    .profile-section .profile-detail .payment-section .profile-card p{
+        font-size: 16px;
+    }
+    .slider {
+        margin: 25px 0;
+    }
+    .right-side-bar {
+        padding: 31px 12px 0 12px;
+    }
+    .filter-details-box{
+        padding: 18px;
+    }
+    .profile-section .profile-button a{
+        padding: 11px 10px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .filter-title-line{
+        margin-bottom: 25px;
+    }
+    .custom-check .drop-down {
+        width: 42px;
+        line-height: 42px;
+        height: 42px;
+    }
+    .profile-section .profile-button .chat-btn{
+        max-width: 158px;
+    }
+    .sort-dropdown select, .experience-level select{
+        background-size: 15px;
+        background-position: center right 15px;
+    }
+    .range-slide .thumb{
+        top: -7px;
+        height: 20px;
+        width: 20px;
+    }
+    .filter-title-line h2{
+        font-size: 21px;
+    }
+    .profile-section .profile-detail h2,
+    .profile-section .profile-detail .payment-section .profile-card p{
+        font-size: var(--font-size-sm);
+    }
+    .freelancer-main{
+        padding: 35px 20px 38px;
+        max-width: 60%;
+    }
+    .right-side-bar{
+        padding: 33px 15px 0 15px;
+        max-width: 21%;
+    }
+    .search-bar img{
+        padding: 10px 14px;
+        width: 41px;
+    }
+    .experience-level select{
+        padding: 15px 50px 15px 15px;
+        background-size: 15px;
+        font-size: 14px;
+    }
+    .skills-box .form-group label{
+        padding: 13px 13px;
+        margin-right: 0px;
+    }
+    .profile-main-section{
+        padding: 33px 20px 14px 20px;
+    }
+    .profile-section .profile-button{
+        min-width: 104px;
+        flex-wrap: wrap;
+    }
+    .profile-section .profile-button .view-btn{
+        min-width: 88px;
+        padding: 8px 6px;
+        font-size: 12px;
+        margin-right: 0;
+    }
+    .quality-slider .owl-nav button.owl-prev{
+        left: -29px;
+    }
+    .quality-slider .owl-nav button.owl-next{
+        right: -28px;
+    }
+    .sort-dropdown h4 {
+        min-width: 54px;
+    }
+    .filter-details-box{
+        padding: 14px;
+    }
+    .profile-section .profile-image img.profile-image-one{
+        width: 85px;
+    }
+    .profile-section .profile-image{
+        margin-right: 15px;
+        width: 85px;
+    }
+    .profile-section .profile-image .profile-dot{
+        left: 62px;
+    }
+    .profile-section .profile-button .chat-btn {
+        padding: 9px 7px;
+    }
+    .sort-dropdown select{
+        padding: 12px 16px;
+    }
+    .quality-slider .owl-nav button.owl-prev,
+    .quality-slider .owl-nav button.owl-next{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .form-group label{
+        padding: 13px 18px;
+    }
+    .profile-middel-part{
+        padding-bottom: 30px;
+    }
+    .filter-title-line{
+        margin-bottom: 30px;
+    }
+    .custom-check .drop-down{
+        width: 42px;
+        line-height: 42px;
+        height: 42px;
+    }
+    .sort-dropdown select, .experience-level select{
+        background-size: 14px;
+        background-position: center right 13px;
+    }
+    .range-slide .thumb{
+        top: -7px;
+        height: 20px;
+        width: 20px;
+    }
+    .filter-title-line h2{
+        font-size: 23px;
+    }
+    .profile-section .profile-detail h2,
+    .profile-section .profile-detail .payment-section .profile-card p{
+        font-size: 16px;
+    }
+    .profile-section .profile-detail h2{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .freelancer-main{
+        padding: 35px 20px 38px;
+        max-width: 65%;
+    }
+    .right-side-bar{
+        padding: 33px 15px 0 15px;
+        max-width: 29%;
+    }
+    .search-bar img{
+        padding: 10px 14px;
+        width: 41px;
+    }
+    .experience-level select{
+        padding: 15px 50px 15px 15px;
+        background-size: 15px;
+        font-size: 14px;
+    }
+    .skills-box .form-group label{
+        padding: 13px 13px;
+        margin-right: 0px;
+    }
+    .profile-main-section{
+        padding: 33px 20px 14px 20px;
+    }
+    .profile-section .profile-button .view-btn{
+        min-width: 88px;
+        padding: 11px 6px;
+        font-size: 12px;
+    }
+    .quality-slider .owl-nav button.owl-prev{
+        left: -29px;
+    }
+    .quality-slider .owl-nav button.owl-next{
+        right: -28px;
+    }
+    .sort-dropdown h4 {
+        min-width: 54px;
+    }
+    .filter-details-box{
+        padding: 14px;
+    }
+    .profile-section .profile-image img.profile-image-one{
+        width: 85px;
+    }
+    .profile-section .profile-image{
+        margin-right: 15px;
+        width: 85px;
+    }
+    .profile-section .profile-button .chat-btn {
+        padding: 9px 7px;
+    }
+    .sort-dropdown select{
+        padding: 12px 16px;
+    }
+    .quality-slider .owl-nav button.owl-prev,
+    .quality-slider .owl-nav button.owl-next{
+        width: 43px;
+        height: 43px;
+    }
+    .quality-slider .owl-nav button.owl-prev img,
+    .quality-slider .owl-nav button.owl-next img{
+        max-width: 10px;
+    }
+    .left-side-bar{
+        max-width: 6%;
+        font-size: 13px;
+        padding: 7px;
+    }
+    .main-sec,
+    .profile-section{
+        flex-wrap: wrap;
+    }
+    .profile-section .profile-detail{
+        width: 76%;
+        padding-bottom: 19px;
+    }
+    .profile-section .profile-button{
+        width: 76%;
+        justify-content: start;
+        margin-left: auto;
+    }
+    .filter-title-line{
+        margin-bottom: 25px;
+    }
+    .sort-dropdown select{
+        margin-left: 13px;
+    }
+}
+
+@media (max-width:767px){
+    .filter-title-line{
+        margin-bottom: 25px;
+    }
+    .custom-check .drop-down{
+        width: 40px;
+        line-height: 40px;
+        height: 40px;
+    }
+    .freelancers-title p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .range-slide .thumb{
+        top: -7px;
+        height: 20px;
+        width: 20px;
+    }
+    .filter-title-line h2{
+        font-size: 23px;
+    }
+    .profile-section .profile-detail h2,
+    .profile-section .profile-detail .payment-section .profile-card p{
+        font-size: 16px;
+    }
+    .freelancer-main{
+        padding: 35px 20px 38px;
+        max-width: 100%;
+        width: 100%;
+    }
+    .right-side-bar{
+        padding: 35px 15px 0 15px;
+        max-width: 100%;
+        width: 100%;
+    }
+    .search-bar img{
+        padding: 10px 14px;
+        width: 41px;
+    }
+    .experience-level select{
+        padding: 15px 50px 15px 15px;
+        background-size: 15px;
+        font-size: 14px;
+    }
+    .skills-box .form-group label{
+        padding: 13px 13px;
+        margin-right: 0px;
+    }
+    .profile-main-section{
+        padding: 33px 15px 14px 15px;
+    }
+    .profile-section .profile-button .view-btn{
+        min-width: 88px;
+        padding: 8px 6px;
+        font-size: 12px;
+    }
+    .quality-slider .owl-nav button.owl-prev{
+        left: -29px;
+    }
+    .quality-slider .owl-nav button.owl-next{
+        right: -28px;
+    }
+    .sort-dropdown h4 {
+        min-width: 54px;
+    }
+    .filter-details-box{
+        padding: 14px;
+    }
+    .profile-section .profile-image img.profile-image-one{
+        width: 100%;
+    }
+    .profile-section .profile-image{
+        margin-right: 10px;
+        width: 50px;
+    }
+    .profile-section .profile-image .profile-dot{
+        width: 15px;
+    }
+    .profile-section .profile-button .chat-btn {
+        padding: 9px 7px;
+    }
+    .sort-dropdown select{
+        padding: 12px 16px;
+    }
+    .quality-slider .owl-nav button.owl-prev,
+    .quality-slider .owl-nav button.owl-next{
+        width: 43px;
+        height: 43px;
+    }
+    .quality-slider .owl-nav button.owl-prev img,
+    .quality-slider .owl-nav button.owl-next img{
+        max-width: 9px;
+    }
+    .left-side-bar{
+        display: none;
+    }
+    .main-sec,
+    .profile-section{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .profile-section .profile-detail{
+        width: 67%;
+        padding-bottom: 19px;
+        margin-left: 0;
+    }
+    .profile-section .profile-button{
+        width: 100%;
+        justify-content: start;
+        margin-left: auto;
+        padding-left: 76px;
+    }
+    .profile-section .profile-detail .payment-section .profile-card p {
+        font-size: 13px;
+    }
+    .profile-section .profile-detail .payment-section .profile-card img {
+        min-width: 13px;
+    }
+    .applicants-top-sec {
+        flex-wrap: wrap;
+    }
+    .applicants-top-sec ul.applicants-menu {
+        padding-bottom: 15px;
+    }
+    .profile-section .profile-detail .payment-section .profile-card{
+        align-items: center;
+    }
+    .sort-dropdown,.applicants-top-sec ul.applicants-menu{
+        justify-content: center;
+    }
+    .form-group label{
+        padding: 14px 14px;
+    }
+    .filter-title-line{
+        margin-bottom: 20px;
+    }
+    .profile-middel-part{
+        padding-bottom: 25px;
+    }
+    .profile-section .profile-detail h2{
+        margin-bottom: 12px;
+    }
+}
+@media screen and (max-width:1399px){
+    .profile-section .profile-button a,
+    .applicants-menu li a.popular-menu,
+    .applicants-menu li a,
+    .sort-dropdown select,
+    .form-group label,
+    .skills-box .form-group label,
+    .search-bar input,
+    .filter-details-box h3,
+    .avalability-options label,
+    .profile-section .profile-detail p,
+    .filter-title-line p,
+    .pay-rate-number,.filter-title-line a{
+        font-size: 14px;
+    }
+    .filter-details-box h3{
+        font-size: 16px;
+    }
+    .sort-dropdown h4{
+        font-size: 14px;
+    }
+}
+@media (min-width:992px){
+    .right-side-bar {
+        min-width: 300px;
+    }
+}
+@media (min-width:1200px){
+    .right-side-bar {
+        min-width: 360px;
+    }
+}
+@media (min-width:1400px){
+    .right-side-bar {
+        min-width: 400px;
+    }
+}
+@media (min-width:1500px){
+    .left-side-bar{
+        max-width: 360px;
+    }
+    .right-side-bar{
+        min-width: 446px;
+        max-width: 100%;
+    }
+}
